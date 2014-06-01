@@ -1,0 +1,10 @@
+// This file is a sample protocol buffers .proto file. You should delete this 
+// after you're comfortable that you understand the project structure.
+
+option java_package = "sample.helloworld";
+option java_outer_classname = "SampleHelloWorldProto";
+
+message HelloWorld {
+	required int32 x = 1;
+}
+
